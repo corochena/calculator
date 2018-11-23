@@ -1,0 +1,56 @@
+body {
+  background-image: url("http://www.edupristine.com/wp-content/uploads/2015/09/accounting-small-business.jpg");
+  background-size: 100% auto;
+  padding: 20px 0;
+}
+
+#calculator {
+  background-color: #544;
+  width: 350px;
+  height: 500px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  font-family: monospace;
+  font-size: 150%;
+  box-shadow: 5px 8px;
+}
+
+#label {
+  padding: 3px 10px;
+  width: 92%;
+  color: #ddd;
+  text-align: right;
+}
+
+#display {
+  background-color: #ddd;
+  width: 290px;
+  height: 70px;
+  margin: 20px auto;
+  padding: 5px 9px;
+  font-size: 250%;
+  border-radius: 5px;
+  border: 4px solid white;
+  text-align: right;
+}
+
+button {
+  width: 70px;
+  height: 60px;
+  margin: 0px auto 10px auto;
+  font-size: 150%;
+  font-weight: bold;
+  color: #111;
+  border-radius: 8px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.especial {
+  background-color: brown;
+  color: white;
+}
